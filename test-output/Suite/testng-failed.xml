@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="prescribed_Event_Test.PrescribedEvent_A49">
+        <methods>
+          <include name="Execute_API"/>
+          <include name="Placing_Bids_FirstEntity_A49"/>
+        </methods>
+      </class> <!-- prescribed_Event_Test.PrescribedEvent_A49 -->
+      <class name="prescribed_Event_Test.PrescribedEvent_A50">
+        <methods>
+          <include name="Placing_Bids_FirstEntity_A50"/>
+          <include name="Execute_API"/>
+          <include name="CreateNewEvent_A50"/>
+        </methods>
+      </class> <!-- prescribed_Event_Test.PrescribedEvent_A50 -->
+      <class name="prescribed_Event_Test.PrescribedEvent_A47">
+        <methods>
+          <include name="Execute_API"/>
+          <include name="Placing_Bids_FirstEntity_A47"/>
+          <include name="SET_FXRATE_CA_A47"/>
+        </methods>
+      </class> <!-- prescribed_Event_Test.PrescribedEvent_A47 -->
+      <class name="prescribed_Event_Test.PrescribedEvent_A56">
+        <methods>
+          <include name="Execute_API"/>
+          <include name="Placing_Bids_FirstEntity_A56"/>
+          <include name="SET_FXRATE_CA_A56"/>
+        </methods>
+      </class> <!-- prescribed_Event_Test.PrescribedEvent_A56 -->
+      <class name="prescribed_Event_Test.PrescribedEvent_A218">
+        <methods>
+          <include name="Run_Algorithm_WashingtonFirstSponsor"/>
+          <include name="Execute_API"/>
+        </methods>
+      </class> <!-- prescribed_Event_Test.PrescribedEvent_A218 -->
+      <class name="prescribed_Event_Test.PrescribedEvent_A51">
+        <methods>
+          <include name="Placing_Bids_FirstEntity_A51"/>
+          <include name="Execute_API"/>
+        </methods>
+      </class> <!-- prescribed_Event_Test.PrescribedEvent_A51 -->
+      <class name="prescribed_Event_Test.PrescribedEvent_A57">
+        <methods>
+          <include name="Execute_API"/>
+          <include name="Placing_Bids_FirstEntity_A57"/>
+        </methods>
+      </class> <!-- prescribed_Event_Test.PrescribedEvent_A57 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

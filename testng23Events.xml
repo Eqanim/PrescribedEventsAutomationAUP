@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="prescribed_Event_Test.PrescribedEvent_R72"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_R73"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_R74"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_R70"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_R71"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_R69"/>
+      <class name="prescribed_Event_Test.PrescribdEvent_A278"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_R319"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_R76"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_A298"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_R317"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_A297"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_A50"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_A42"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_A218"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_A51"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_A47"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_A46"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_A57"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_A45"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_A56"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_A49"/>
+      <class name="prescribed_Event_Test.PrescribedEvent_A48"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

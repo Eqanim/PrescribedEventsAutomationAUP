@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1604]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1604(failed)">
+    <classes>
+      <class name="testClasses.Test_ReportWashingtonReserveSale">
+        <methods>
+          <include name="raisebidforFirstEntity"/>
+          <include name="runAlgorithm"/>
+          <include name="FSAaccesstheFinancialSettlementReport" invocation-numbers="0 1 1 1"/>
+        </methods>
+      </class> <!-- testClasses.Test_ReportWashingtonReserveSale -->
+      <class name="testClasses.Test_ReportWashingtonSingleauction">
+        <methods>
+          <include name="FSAaccesstheFinancialSettlementReport"/>
+          <include name="raisebidforThirdEntity"/>
+          <include name="runAlgorithm2"/>
+          <include name="SponsorMMaccesstheResultsReport"/>
+          <include name="SponsoraccesstheFinancialStatementReport"/>
+          <include name="SponsorraccesstheAllowanceDeliveryReportvalidate"/>
+          <include name="downloadResultReportandValidations"/>
+          <include name="uploadHLAndPL"/>
+          <include name="closeBiddingWindowRS"/>
+          <include name="SponsoraccessPostEventOperationsReport"/>
+          <include name="SponsoraccesstheAllowanceDeliveryReportvalidate"/>
+          <include name="closeBiddingWindowRS_approval2"/>
+          <include name="raisebidforSecondEntity"/>
+          <include name="raisebidforFifthEntity"/>
+          <include name="sponsoraccesstheClientBidsAuditReport" invocation-numbers="0 0 0 1 1 1"/>
+          <include name="sponsoraccesstheClientBidsReport" invocation-numbers="0 0 0 1 1 1 2 2 2"/>
+          <include name="sponsorMMaccesstheBidsReport" invocation-numbers="0 0 0 1 1 1"/>
+          <include name="MMaccesstheBidsAuditReport" invocation-numbers="0 0 0 1 1 1"/>
+          <include name="createEventForWashingtonJurisdiction"/>
+          <include name="SponsoraccesstheFinancialSettlementReport"/>
+          <include name="raisebidforFourthEntity"/>
+          <include name="setApprovalForEventCreation"/>
+          <include name="raisebidforFirstEntity"/>
+          <include name="runAlgorithm"/>
+          <include name="sponsoraccesstheQualifiedBiddersReport"/>
+          <include name="eventCertificationBySecondSponsor"/>
+          <include name="sponsorMMaccesstheQualifiedBiddersReport"/>
+          <include name="SponsoraccesstheAllowanceDeliveryReport"/>
+        </methods>
+      </class> <!-- testClasses.Test_ReportWashingtonSingleauction -->
+      <class name="testClasses.Test_CreateReserveSaleForCalifornia">
+        <methods>
+          <include name="eventCertificationBySecondSponsor"/>
+          <include name="runAlgorithm"/>
+          <include name="SponsoraccesstheAllowanceDeliveryReport" invocation-numbers="0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5"/>
+          <include name="raisebidforThirdEntity"/>
+          <include name="sponsorMMaccesstheQualifiedBiddersReport" invocation-numbers="0 0 0 1 1 1 2 2 2 3 3 3 4 4 4"/>
+          <include name="sponsoraccesstheQualifiedBiddersReport"/>
+          <include name="raisebidforFourthEntity"/>
+          <include name="eventCertification"/>
+          <include name="SponsorraccesstheReserveSaleBidLotAuditReportValidate"/>
+          <include name="MMaccesstheBidsAuditReport" invocation-numbers="0 0 0"/>
+          <include name="sponsoraccesstheClientBidsAuditReport" invocation-numbers="0 0 0 1 1 1 2 2 2 3 3 3"/>
+          <include name="SponsoraccesstheFinancialSettlementReport" invocation-numbers="0 0 0 1 1 1 2 2 2 3 3 3 4 4 4"/>
+          <include name="secondapproval"/>
+          <include name="sponsorMMaccesstheBidsReport" invocation-numbers="0 0 0 1 1 1 2 2 2 3 3 3 4 4 4"/>
+          <include name="SponsoraccesstheAllowanceDeliveryReportvalidate"/>
+          <include name="sponsoraccesstheClientBidsReport"/>
+          <include name="raisebidforSecondEntity"/>
+          <include name="closeBiddingWindowRS_approval2"/>
+          <include name="closeBiddingWindowRS"/>
+          <include name="SponsoraccessPostEventOperationsReport"/>
+          <include name="runAlgorithm2"/>
+          <include name="SponsorMMaccesstheResultsReport" invocation-numbers="0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5"/>
+          <include name="verifyCreateReserveSaleEventFunctionalityForCalifornia" invocation-numbers="0 0 0"/>
+          <include name="verifyCreateReserveSaleEventFunctionalityForCalifornia2"/>
+          <include name="raisebidforFifthEntity"/>
+          <include name="raisebidforFirstEntity"/>
+          <include name="downloadResultReportandValidations"/>
+          <include name="SponsoraccesstheFinancialStatementReport"/>
+          <include name="SponsorraccesstheAllowanceDeliveryReportvalidate"/>
+        </methods>
+      </class> <!-- testClasses.Test_CreateReserveSaleForCalifornia -->
+      <class name="testClasses.Test_ReportCaliforniaSingleauction">
+        <methods>
+          <include name="SponsoraccesstheFinancialSettlementReport"/>
+          <include name="runAlgorithm"/>
+          <include name="sponsoraccesstheQualifiedBiddersReport"/>
+          <include name="eventCertificationBySecondSponsor"/>
+          <include name="SponsoraccesstheAllowanceDeliveryReport"/>
+          <include name="sponsorMMaccesstheQualifiedBiddersReport"/>
+          <include name="setApprovalForEventCreation"/>
+          <include name="createEventForCaliforniaJurisdiction"/>
+          <include name="closeBiddingWindowCA_approval2"/>
+          <include name="raisebidforFourthEntity"/>
+          <include name="sponsoraccesstheClientBidsAuditReport" invocation-numbers="0 0 0 1 1 1"/>
+          <include name="closeBiddingWindowCA"/>
+          <include name="MMaccesstheBidsAuditReport" invocation-numbers="0 0 0 1 1 1"/>
+          <include name="SponsoraccesstheAllowanceDeliveryReportvalidate"/>
+          <include name="raisebidforFifthEntity"/>
+          <include name="sponsorMMaccesstheBidsReport" invocation-numbers="0 0 0 1 1 1"/>
+          <include name="sponsoraccesstheClientBidsReport" invocation-numbers="0 0 0"/>
+          <include name="raisebidforSecondEntity"/>
+          <include name="uploadHLAndPL"/>
+          <include name="raisebidforFirstEntity"/>
+          <include name="SponsoraccessPostEventOperationsReport"/>
+          <include name="FSAaccesstheFinancialSettlementReport"/>
+          <include name="raisebidforThirdEntity"/>
+          <include name="runAlgorithm2"/>
+          <include name="downloadResultReportandValidations"/>
+          <include name="SponsorMMaccesstheResultsReport"/>
+          <include name="SponsoraccesstheFinancialStatementReport"/>
+          <include name="SponsorraccesstheAllowanceDeliveryReportvalidate"/>
+        </methods>
+      </class> <!-- testClasses.Test_ReportCaliforniaSingleauction -->
+    </classes>
+  </test> <!-- Test1604(failed) -->
+</suite> <!-- Failed suite [Suite1604] -->

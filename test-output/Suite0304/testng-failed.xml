@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite0304]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testClasses.Tests_QA_AUP_Rohi">
+        <methods>
+          <include name="C32051_Verify_bids_report_has_information_about_the_comments_added_to_the_bid_during_monitoring_of_the_bids"/>
+          <include name="C32016_MM_can_get_access__to_Bids_Audit_report_for_an_Allowance_Sale_event_during_the_bidding_window"/>
+          <include name="C31947_Sponsor_can_get_access_to_Bids_report_for_an_Allowance_Sale_event_during_the_bidding_window"/>
+          <include name="C32069_AR_can_get_access_to_Client_Bids_Audit_report_for_an_Allowance_Sale_event_during_the_bidding_window"/>
+          <include name="C32045_MM_can_get_access_to_bid_report_for_an_event_once_the_bidding_window_opens"/>
+          <include name="C31492_Confirm_the_CMS_Page_displays_localized_informationQC"/>
+          <include name="C31489_Confirm_Event_Details_Page_Allowance_Sale_dsiplays_localized_informationCA"/>
+          <include name="C32071_AR_AccessClientBidsAuditReportForAllowanceSaleEventDuringBiddingWindow"/>
+          <include name="C31963_Sponsor_can_get_access_to_Client_Bid_Report_for_an_Allowance_Sale_event_during_bidding_window"/>
+          <include name="C32057_Confirm_AR_can_access_the_Client_Bid_Report_post_certification"/>
+          <include name="C31398_Keep_Copies_of_Report_Generated_Before_ReRun"/>
+          <include name="C31992_SponsorAccessClientBidsAuditReportForAllowanceSaleEventDuringBiddingWindowCA"/>
+          <include name="C31341_The_allotted_allowances_calculated_is_as_expected"/>
+          <include name="C32017_MM_can_get_access__to_Bids_report_for_an_Allowance_Sale_event_during_the_bidding_window"/>
+          <include name="C31963_AR_can_get_access_to_Client_Bid_Report_for_an_Allowance_Sale_event_during_bidding_window"/>
+          <include name="C31934_Sponsor_can_get_access_to_Bids_Audit_report_for_an_Allowance_Sale_event_during_the_bidding_window"/>
+          <include name="C32059_AR_AccessClientBidReportforAllowanceSaleEventDuringBiddingWindow"/>
+          <include name="C32052_Sponsor_MM_can_get_access_to_Bids_Audit_report_for_an_Allowance_Sale_event_during_the_bidding_window"/>
+          <include name="C31340_The_settlement_price_calculated_is_as_expected"/>
+          <include name="C31960_Sponsor_or_AR_can_get_access_to_Client_Bids_Report_for_an_Allowance_Sale_event_after_Certification_of_an_Allowance_Sale_event"/>
+          <include name="C31934_MM_can_get_access_to_Bids_Audit_report_for_an_Allowance_Sale_event_during_the_bidding_window"/>
+          <include name="C31398_Keep_Copies_of_Report_Generated_Before_ReRun2" invocation-numbers="0 0"/>
+          <include name="C31948_MM_can_get_access_to_Bids_report_for_an_Allowance_Sale_event_during_the_bidding_window"/>
+          <include name="C31996_SponsorAccessClientBidsAuditReportForAllowanceSaleEventDuringBiddingWindowCAHeaderValidation"/>
+        </methods>
+      </class> <!-- testClasses.Tests_QA_AUP_Rohi -->
+      <class name="testClasses.Tests_MonitoringPage">
+        <methods>
+          <include name="VerifySponsorCannotExcludeMultipleBidsWhenTheSelectionOfBidsAreNotCorrect"/>
+          <include name="ADDBID"/>
+          <include name="VerifySponsorCanNotUnFlagMultipleBidsWhenTheSelectionOfBidsAreNotCorrect"/>
+          <include name="VerifySponsorCanExcludeAndIncludeMultipleBids" invocation-numbers="0"/>
+          <include name="VerifyMarketMonitorCanNotUnFlagMultipleBidsWhenTheSelectionOfBidsAreNotCorrect"/>
+          <include name="VerifySponsorAndMMCanNotFlagMultipleBidsWhenTheSelectionOfBidsAreNotCorrect"/>
+          <include name="VerifySponsorCannotIncludeMultipleBidsWhenTheSelectionOfBidsAreNotCorrect"/>
+        </methods>
+      </class> <!-- testClasses.Tests_MonitoringPage -->
+      <class name="testClasses.TestSuitesTestCases">
+        <methods>
+          <include name="verifySponsorCanGenerateTheUserManagementReport"/>
+          <include name="verifySponsorCanGenerateTheUserActivityAuditReport"/>
+          <include name="verifyOnlySponsorRoleHasAccessToViewTheUserAdminScreen"/>
+          <include name="verifyTheSearchIsCaseInsensitive"/>
+          <include name="verifySponsorIsAbleToInputTheAdminUserEmailAddressAndSpecifyAnAdminUserRole"/>
+          <include name="verifySponsorneedsToConfirmTheDeactivationAndActivationProcess" invocation-numbers="0 0 1 1 2 2 3 3"/>
+          <include name="verifyUserGridDisplaysTheLegalEntityNameAssociatedWithAROnly" invocation-numbers="2"/>
+          <include name="verifyAddNewUserBySponsor"/>
+          <include name="verifySponsorMustBeAbleToSearchTheDataByLastName"/>
+        </methods>
+      </class> <!-- testClasses.TestSuitesTestCases -->
+      <class name="testClasses.Tests_QA_AUP_Vikram">
+        <methods>
+          <include name="DownloadR317ReserveSaleResultReportandValidations"/>
+          <include name="DownloadCaliforniaBidsAuditReportandValidations"/>
+          <include name="verifySponsorCanMonitoringAccessOnEventDayForQuebec"/>
+        </methods>
+      </class> <!-- testClasses.Tests_QA_AUP_Vikram -->
+      <class name="testClasses.Tests_QA_AUP_Mayur">
+        <methods>
+          <include name="DataintheBidsReportiscorrectQC"/>
+          <include name="ValidateResultReportsMMSBA"/>
+          <include name="Addcommentbulkaction"/>
+          <include name="Sponsor_MM_flag_multiple_bids" invocation-numbers="0 0"/>
+          <include name="ValidateAllowancedeliveryReportsQC" invocation-numbers="0 0"/>
+          <include name="ValidateClientBidAuditReportsQC"/>
+          <include name="ValidateClientBidReportsQC" invocation-numbers="0 0 1 1 2 2 3 3"/>
+          <include name="ValidateFinancialSettlementReportsENGSP" invocation-numbers="0 0 1 1 2 2 3 3"/>
+          <include name="ValidateFinancialSettlementReportsENG" invocation-numbers="0 0 1 1 2 2 3 3"/>
+          <include name="Sponsorcanexcludeincludesinglemultiplebids" invocation-numbers="0 0"/>
+          <include name="ValidateResultReports"/>
+          <include name="validateBidsAuditReportsReportReserveqc" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testClasses.Tests_QA_AUP_Mayur -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite0304] -->
